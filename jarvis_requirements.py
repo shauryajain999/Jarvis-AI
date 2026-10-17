@@ -1,0 +1,15 @@
+SAMPLE_RATE = 16000
+GAIN = 6.0
+ENERGY_THRESHOLD = 0.015
+SILENCE_LIMIT_BLOCKS = 15
+BLOCKSIZE = 1024
+BANDPASS_LOW = 85
+BANDPASS_HIGH = 3000
+BANDPASS_ORDER = 4
+WAKE_WORD = "jarvis"
+LANGUAGE = "en-IN"
+VLC_PATH = r"C:\Program Files\VideoLAN\VLC\vlc.exe"
+PYTHONW_PATH = r"C:\Program Files\Python314\pythonw.exe"  # update if your Python version differs
+GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_API_KEY_ENV_VAR = "GEMINI_API_KEY"
+LEVEL = 0.2
